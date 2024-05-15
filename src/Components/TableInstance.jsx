@@ -112,6 +112,7 @@ const TableInstance = ({ columns, data, deleteSelected, updateSelected,addData }
               selectedRowIds={state.selectedRowIds}
               deleteSelected={deleteSelected}
               addData={addData}
+              data={data}
             />
           </div>
         </div>
