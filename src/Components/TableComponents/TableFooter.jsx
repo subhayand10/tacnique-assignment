@@ -55,7 +55,7 @@ const TableFooter = ({
         </button>
         {isModalOpen && (
           <div className="fixed inset-0 flex items-center justify-center z-50">
-            <div className="fixed inset-0 bg-black opacity-60"></div>
+            <div className="fixed inset-0 bg-black opacity-90"></div>
             <div className="modal bg-blend-darken text-white rounded-lg p-6 z-50">
               <span
                 className="close absolute top-0 right-0 mt-4 mr-4 cursor-pointer"
